@@ -46,7 +46,7 @@ def main():
 
         #REMOVE THIS COMMENT AFTER YOU UNDERSTAND WHAT TO DO - these statements are currently "commented out" as talked about in class
         #The first time you run the code...what should you do here?  If uncommented - what will the os.system(cmd) statemetn attempt to do?
-        #print cmd
+        #print(cmd)
         #os.system(cmd)
 
         #REPLACE THIS COMMENT - what is the point of this print statement?
@@ -56,7 +56,7 @@ def main():
 
         #REMOVE THIS COMMENT AFTER YOU UNDERSTAND WHAT TO DO - these statements are currently "commented out" as talked about in class
         #The first time you run the code...what should you do here?  If uncommented - what will the os.system(cmd) statemetn attempt to do?
-        #print cmd
+        #print(cmd)
         #os.system(cmd)
 
         for group in groups:
@@ -64,7 +64,7 @@ def main():
             if group != '-':
                 print("==> Assigning %s to the %s group..." % (username,group))
                 cmd = "/usr/sbin/adduser %s %s" % (username,group)
-                #print cmd
+                #print(cmd)
                 #os.system(cmd)
 
 if __name__ == '__main__':
